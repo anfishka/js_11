@@ -1,0 +1,66 @@
+:root {
+  --main_color: rgba(34, 26, 45, 0.2);
+}
+
+select {
+  background: transparent; 
+  border: 3px solid rgba(176, 176, 176, 0.2);
+  border-radius: 20px;
+  padding: 10px;
+  list-style: none;
+  
+}
+
+
+option {
+  background: transparent;
+  color: white;
+    background: rgb(34, 27, 27); 
+}
+
+option:hover,
+option:focus,
+optgroup:hover,
+optgroup:focus {
+  background: rgb(34, 27, 27); 
+  color: rgb(34, 27, 27);
+}
+
+.list_container {
+  background: transparent;
+}
+
+.img_container {
+         width: 500px; 
+         height: 500px; 
+         background-size: cover; 
+         background-position: center;
+         margin: 0 auto;
+         border: 3px solid var(--main_color);
+         border-radius: 20px;
+         
+             
+}
+.main{
+  
+   flex-wrap: nowrap;
+  /* background: #200234;*/
+   height: 1000px;
+   padding: 50px;
+   background-repeat: no-repeat;
+    background-size: cover; 
+  
+}
+
+.btn_get_random_dog::after{
+   
+    width: 100%;
+      text-align: center;
+    color: aliceblue;
+    content: "Get random dog";
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    border: 0.1rem solid var(--main_color);
+  
+}
